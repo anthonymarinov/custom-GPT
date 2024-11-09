@@ -6,7 +6,7 @@ import numpy
 # Hyperparameters
 batch_size = 64 # Independent sequences processed in parallel
 block_size = 256 # Max context length for predictions
-max_iters = 20000
+max_iters = 5000
 eval_interval = 500
 learning_rate = 3e-4
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
