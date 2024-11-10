@@ -31,7 +31,7 @@ To train the model on Shakespeare's text, run:
 python gpt-llm.py
 ```
 
-Ensure `input.txt` is in the same directory, containing the text data for training. During training, the model will periodically evaluate itself to track performance.
+Ensure `input.txt` is in the same directory, containing the text data for training. During training, the model will periodically evaluate itself to track performance. The model will then output a segement of text generated from the trained model.
 
 ## Workflows
 
