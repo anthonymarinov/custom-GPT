@@ -1,22 +1,19 @@
 
 # Character-Level Language Model - Shakespeare Text Generator
 
-This project implements a character-level language model using PyTorch, trained on the complete works of Shakespeare. The model uses a transformer-based architecture to learn the nuances of Shakespeare's writing style and generate similar text.
+This project implements a character-level language model using PyTorch, trained on the complete works of Shakespeare. The model uses a transformer-based architecture to learn Shakespeare's writing style and generate similar text.
 
 ## Features
-- **Character Encoding and Decoding**: Maps each character in the text to a unique integer, allowing the model to handle text data effectively.
+- **Character Encoding and Decoding**: Maps each character in the text to a unique integer.
 - **Transformer Architecture**: Uses multiple transformer layers to learn sequential character patterns.
 - **Configurable Hyperparameters**: Includes customizable settings for batch size, block size, learning rate, and more.
   
-## Installation
+## Dependencies
 
-1. Clone the repository or download the `gpt-llm.py` file.
-2. Install the required dependencies:
-   ```bash
-   pip install torch numpy
-   ```
+1. PyTorch
+2. NumPy
 
-3. Prepare the Shakespeare text data as `input.txt` in the same directory as the script. You can use any other text corpus as well.
+3. DATA: Prepare the Shakespeare text data (or any desired training text) as `input.txt` in the same directory as the script.
 
 ## Hyperparameters
 
@@ -51,8 +48,5 @@ Ensure `input.txt` is in the same directory, containing the text data for traini
 
 ## Example Output
 
-After sufficient training, the model generates Shakespearean-style text. Adjust the number of training iterations (`max_iters`) to refine the generated output quality.
+After sufficient training, the model generates Shakespearean-style text. The hyperparameters can be experimented with to optimize model accuracy. In its current state, the model is not very optimized, and the outputted text is mostly gibberish. This project is mostly a proof of concept to manually reproduce the transformer architecture used in GPT-2.
 
-## License
-
-This project is open-source under the MIT License.
