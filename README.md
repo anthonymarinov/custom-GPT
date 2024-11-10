@@ -46,7 +46,7 @@ Ensure `input.txt` is in the same directory, containing the text data for traini
 3. **Text Generation**:
    - After training, the model can generate text in a style similar to Shakespeare's by sampling from the learned character sequences.
 
-## Example Output
+## Output
 
 After sufficient training, the model generates Shakespearean-style text. The hyperparameters can be experimented with to optimize model accuracy. In its current state, the model is not very optimized, and the outputted text is mostly gibberish. This project is mostly a proof of concept to manually reproduce the transformer architecture used in GPT-2.
 
