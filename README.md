@@ -1,7 +1,7 @@
 
 # Character-Level Language Model - Shakespeare Text Generator
 
-This project implements a character-level language model using PyTorch, trained on the complete works of Shakespeare. The model uses a transformer-based architecture to learn Shakespeare's writing style and generate similar text.
+This project implements a character-level language model using PyTorch, trained on the complete works of Shakespeare. The model uses a transformer-based architecture, drawn from GPT-2, to learn Shakespeare's writing style and generate similar text.
 
 ## Features
 - **Character Encoding and Decoding**: Maps each character in the text to a unique integer.
