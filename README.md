@@ -6,7 +6,7 @@ This project implements a character-level language model using PyTorch, trained 
 ## Features
 - **Character Encoding and Decoding**: Maps each character in the text to a unique integer.
 - **Transformer Architecture**: Uses multiple transformer layers to learn sequential character patterns.
-- **Configurable Hyperparameters**: Includes customizable settings for batch size, block size, learning rate, and more.
+- **Configurable Hyperparameters**: Includes tunable settings for batch size, block size, learning rate, and more.
   
 ## Dependencies
 
